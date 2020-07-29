@@ -5,4 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './media-item.component.html',
   styleUrls: ['./media-item.component.css']
 })
-export class MediaItemComponent {}
+// This is how you pass information into templates created.
+export class MediaItemComponent {
+  name = 'The Redemption';
+  wasWatched() {
+    return true;
+  }
+}
