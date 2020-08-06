@@ -7,4 +7,5 @@ mediaItems.forEach(mediaItem => {
 return categories.join(', ');
 
 
+
 [\\w\\-\\s\\/]+
